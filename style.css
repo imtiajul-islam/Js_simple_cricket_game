@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20em;
+    height: 100vh;
+    background-color: #4EA815;
+}
+#field{
+    display: flex;
+    flex-direction: column;
+}
+#field img{
+    width: 20em;
+    height: 20em;
+}
+/* Toss */
+.holder{
+    display: none;
+}
+.toss{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30em;
+    height: 30em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(77, 168, 21, 0.856);
+    border-radius: 50%;
+}
+.holder{
+    display: none;
+}
+#toss{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+#toss_result{
+    background-color: #fff;
+        padding: 3em;
+        font-size: 2em;
+        border-radius: 33%;
+}
+#start{
+        padding: 1em 6em ;
+        border-radius: 1em;
+        cursor: pointer;
+}
+/*  */
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+/*  */
+.play_bnt{
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+/*  */
+.re{
+    margin: 1em 0;
+}
+/* Special event */
+#eventSp{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(233, 0, 0);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-10% , -50%);
+}

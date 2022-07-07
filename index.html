@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js_cricket_game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="container">
+        <div class="player1 player">
+
+            <div class="content one">
+                <br>
+                <h1>You</h1>
+                <div>
+                    <p class="re run">Run : <span id="run_counterOne">0</span></p>
+                    <p class="re wicket">Wicket :<span id="wicket_counterOne">0</span></p>
+                    <p class="re ball">Ball : <span id="ball_counter">0</span></p>
+                </div>
+                <h1 id="overScore"></h1>
+            </div>
+        </div>
+        <div class="toss " >
+            <p id="toss_result">TOSS!</p>
+            <button id="toss">Toss</button>
+            <button id="start">Start</button>
+        </div>
+   
+        <div id="field">
+            <p id="eventSp"></p>
+                <!-- play -->
+                <button disabled class="play_bnt" id="after_toss_one">Pending</button>
+                <!-- play -->
+            <img src="img/545px-Cricket_field_blank.svg.png" alt="">
+        </div>
+        
+        <div class="player2 player">
+            <div class="content two">
+                <!-- play -->
+                <!-- <button disabled class="play_bnt" id="after_toss_two">Pending</button> -->
+                <!-- play -->
+                <br>
+                <h1>Player two</h1>
+                <div>
+                    <p class="re runp2">Run : <span id="run_counterTwo">0</span></p>
+                    <p class="re wicketp2">Wicket :<span id="wicket_counter">0</span></p>
+                    <p class="re ball">Ball : <span id="ball_c">0</span></p>
+                </div>
+                <h1 id="overScore2"></h1>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
